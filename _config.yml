@@ -1,0 +1,29 @@
+title: Visidian
+description: A Vim-based Personal Knowledge Management System
+baseurl: ""
+url: "https://visidian.github.io"
+
+# Build settings
+markdown: kramdown
+theme: null
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social links
+github_username: ubuntupunk
+repository: ubuntupunk/visidian.vim
+
+# Header pages
+header_pages:
+  - vim-plugin.md
+  - docs/getting-started.md
+
+# Exclude from processing
+exclude:
+  - .git/
+  - .github/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
